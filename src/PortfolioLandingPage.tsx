@@ -494,6 +494,7 @@ function DetailModal({ project, isOpen, onClose, onShowToast }: DetailModalProps
 export default function PortfolioLandingPage() {
   const githubProfile = "https://github.com/KodyPrograms";
   const linkedinProfile = "https://www.linkedin.com/in/kody-voyles/";
+  const emailAddress = "kody@voyles.dev";
 
   const headerRef = useRef<HTMLElement | null>(null);
   const [activeSection, setActiveSection] = useState("about");
@@ -521,17 +522,17 @@ export default function PortfolioLandingPage() {
         title: "IT Ticketing & Service Request System",
         subtitle: "Spring Boot / MySQL / SPA",
         description:
-          "An internal IT ticketing and service request system built with Spring Boot, MySQL, and a lightweight SPA, focused on role-aware workflows, auditability, and enterprise-ready reporting.",
+          "An internal support system built around the kind of workflow structure, auditability, and reporting I care about when software has to help real teams stay organized.",
         longDescription:
-          "Ticketing Console is an internal IT ticketing and service request system built as a proof of concept for real work needs. It was designed to feel closer to an enterprise-ready internal platform than a toy demo, with structured workflows, auditability, reporting, and role-aware actions that support real support operations.",
+          "Ticketing Console is an internal IT ticketing and service request system I built as a practical proof of concept for real support work. The goal was not to make a flashy demo. The goal was to build something structured, traceable, and useful, with role-aware workflows, audit history, reporting, and the kind of backend patterns that make internal software easier to trust and maintain.",
         status: "Live Demo",
         github: "https://github.com/KodyPrograms/IT-Ticketing-System",
         demo: "https://primary-tandy-kody-776e28e5.koyeb.app/",
         stack: ["Java", "Spring Boot", "MySQL", "SPA"],
         role:
-          "Designed the architecture and built the application around structured internal support workflows, audit logging, reporting, and maintainable backend patterns.",
+          "I designed the architecture and built the application around the parts of support software that matter most to me: clear workflow rules, audit logging, useful reporting, and backend structure that stays maintainable as the system grows.",
         focus:
-          "Improving accountability, visibility, workflow structure, and reporting for internal support operations.",
+          "Improving accountability, visibility, and day-to-day workflow for internal support operations.",
         highlights: [
           "Built around Requester, Engineer, and Admin role-aware workflows.",
           "Creates audit entries for important ticket changes such as status, priority, assignee, and comments.",
@@ -570,17 +571,17 @@ export default function PortfolioLandingPage() {
         title: "RevuMe",
         subtitle: "React / Python / Open Source",
         description:
-          "A private review application that lets users keep personal thoughts on places, food, movies, books, and more.",
+          "A personal full-stack project built to be simple, useful, and easy to live with, rather than overbuilt for the sake of it.",
         longDescription:
-          "RevuMe is a private review application built so users can write down what they think about places, food, movies, books, and almost anything else using a one-to-five star rating system. It was made for my wife, built with React on the frontend and Python on the backend, and the entire project is open source.",
+          "RevuMe is a private review application I built for my wife so she could keep track of what she thinks about places, food, movies, books, and just about anything else. It uses a one-to-five star rating system, runs as a full-stack project with React and Python, and stays intentionally straightforward. I like projects like this because they force you to build for actual use instead of just technical novelty.",
         status: "Live Project",
         github: "https://github.com/KodyPrograms/RevuMe",
         demo: "https://revumeapp.netlify.app/",
         stack: ["React", "Python", "Open Source", "Frontend / Backend"],
         role:
-          "Built both the frontend and backend, with emphasis on usability, personal content organization, and a lightweight full-stack setup that is easy to run and understand.",
+          "I built both the frontend and backend, with most of the effort going into usability, a clean personal workflow, and a stack that stays easy to understand and run.",
         focus:
-          "Creating a private review experience with a modern full-stack architecture, simple ratings workflow, and clean personal-use design.",
+          "Building a clean personal-use product with a simple workflow and a full-stack setup that stays approachable.",
         highlights: [
           "Lets users review places, food, movies, books, and more with one-to-five star ratings.",
           "Built with React on the frontend and Python on the backend, and is fully open source.",
@@ -603,16 +604,16 @@ export default function PortfolioLandingPage() {
         title: "Automotive Website & Marketing Work",
         subtitle: "PHP / JavaScript / SEO / Analytics",
         description:
-          "Production dealership website work including service coupon pages, team pages, internal tooling, reporting, and front-end improvements aimed at usability and digital performance.",
+          "Production work across dealership websites, reporting, internal tooling, and marketing performance where technical decisions had direct business impact.",
         longDescription:
-          "This work represents production website and marketing-focused development in automotive, spanning dealership-facing pages, internal tools, analytics support, reporting, and front-end improvements. The emphasis has been on real-world business impact: making digital experiences more usable, improving website performance, and supporting dealership marketing and operations through technical execution.",
+          "This work reflects a large part of how I operate professionally: building and improving production systems where development, analytics, operations, and marketing all overlap. It includes dealership-facing pages, internal tools, reporting, vendor-facing work, performance improvements, and implementation details that affect both user experience and business outcomes.",
         status: "Production Work",
         demo: "#",
         stack: ["PHP", "JavaScript", "SEO", "Analytics", "Marketing Support"],
         role:
-          "Handled development, implementation, optimization, and reporting support across dealership websites and related internal systems.",
+          "I handled development, implementation, optimization, reporting support, and problem-solving across dealership websites and related internal systems.",
         focus:
-          "Supporting dealership marketing and website operations through production development, analytics, and performance work.",
+          "Supporting dealership marketing and website operations through production development, reporting, analytics, and performance work.",
         highlights: [
           "Delivered production website improvements with real business exposure.",
           "Worked across customer-facing pages, internal tooling, and analytics support.",
@@ -628,16 +629,16 @@ export default function PortfolioLandingPage() {
         title: "Vehicle Demand Forecasting App",
         subtitle: "Flask / Python / Forecasting",
         description:
-          "A lightweight forecasting app built for the WGU Computer Science capstone. It estimates next-month vehicle stock demand and surfaces simple buyer insights to support planning decisions.",
+          "A forecasting project centered on practical reporting output, light data analysis, and decision support rather than academic complexity for its own sake.",
         longDescription:
-          "Automotive Inventory Predictor is a lightweight Flask application built for my WGU Computer Science capstone. It forecasts next-month vehicle stock demand and surfaces basic buyer insights, with a workflow centered around practical forecasting output, downloadable reports, and local experimentation with uploaded CSV data.",
+          "Automotive Inventory Predictor is a lightweight Flask application I built for my WGU Computer Science capstone. It forecasts next-month vehicle stock demand and surfaces buyer insights through a workflow built around CSV uploads, retraining, report generation, and local experimentation. It reflects the side of my work that leans into reporting, analysis, and building tools that help people make better decisions with data.",
         status: "Demo Project",
         github: "https://github.com/KodyPrograms/Automotive-Inventory-Predictor",
         stack: ["Python", "Flask", "Forecasting", "Data Analysis"],
         role:
-          "Designed and developed the full application, including data cleaning, model training flow, forecasting logic, file handling, and the Flask presentation layer.",
+          "I built the full application end to end, including data cleaning, model training flow, forecasting logic, file handling, and the Flask interface.",
         focus:
-          "Forecasting next-month vehicle demand and surfacing simple buyer insights in a lightweight local application.",
+          "Turning raw data into a lightweight forecasting workflow that is easy to run and reason about.",
         highlights: [
           "Forecasts next-month sales for each vehicle model.",
           "Surfaces buyer insights such as average income and gender distribution.",
@@ -677,6 +678,7 @@ export default function PortfolioLandingPage() {
     "AWS",
     "Docker",
     "GitHub Actions",
+    "API Integrations",
     "SEO",
     "Analytics",
     "LLM Automation",
@@ -848,12 +850,13 @@ export default function PortfolioLandingPage() {
           >
             <SectionEyebrow>Full Stack Developer / IT / Marketing Technology</SectionEyebrow>
             <h1 className="mt-5 max-w-4xl text-[2.9rem] font-semibold tracking-[-0.05em] text-[#111827] sm:text-[4.15rem] sm:leading-[1.02]">
-              I build practical software, internal tools, and digital systems that help businesses run better.
+              I build internal tools, reporting systems, and practical software that help teams work smarter.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-[#4b5563] sm:text-lg">
-              My work sits at the intersection of development, infrastructure, reporting, automation, and
-              marketing technology. I care about clean implementation, useful systems, and reducing friction
-              for the teams that depend on them.
+              I am a full stack developer and IT professional focused on useful systems, automation, and
+              data-driven work. Most of what I care about lives where development, reporting, infrastructure,
+              and marketing technology overlap, especially when the result reduces friction and keeps teams
+              less dependent on third-party tools.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -861,8 +864,9 @@ export default function PortfolioLandingPage() {
                 View Projects
                 <ButtonArrow />
               </PortfolioButton>
-              <PortfolioButton type="button" variant="secondary" onClick={() => scrollToSection("#contact")}>
-                Contact
+              <PortfolioButton href={`mailto:${emailAddress}`} variant="secondary">
+                <MailIcon className="h-4 w-4" />
+                Email Me
               </PortfolioButton>
             </div>
           </motion.div>
@@ -887,8 +891,8 @@ export default function PortfolioLandingPage() {
             <div className="relative mt-6">
               <h2 className="text-2xl font-semibold tracking-tight text-[#111827]">Kody Voyles</h2>
               <p className="mt-4 text-sm leading-7 text-[#4b5563]">
-                Developer focused on internal platforms, automation, reporting, web performance, and
-                technology that supports both operations and marketing.
+                I build software that connects technical execution with operational and business goals, from
+                internal platforms and automation to reporting, analytics, and web performance work.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -915,17 +919,18 @@ export default function PortfolioLandingPage() {
           >
             <SectionEyebrow>About</SectionEyebrow>
             <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-tight text-[#111827] sm:text-[2.2rem]">
-              Technical work shaped by operations, reporting, and real business constraints.
+              I like building things that are actually useful once the launch screenshot stops mattering.
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-8 text-[#4b5563]">
-              My background spans software development, IT operations, analytics, and marketing support. I
-              enjoy building tools that reduce friction, improve visibility, and make teams less dependent on
-              brittle outside platforms.
+              My background spans software development, IT operations, analytics, and marketing support. That
+              mix changed how I think about software. I usually care less about building something flashy and
+              more about building something that saves time, improves visibility, or makes a process easier to
+              manage six months from now.
             </p>
             <p className="mt-5 max-w-2xl text-base leading-8 text-[#4b5563]">
-              The projects I care most about live where development, reporting, automation, cloud tooling,
-              and web performance overlap. That combination lets me build systems that are practical,
-              maintainable, and directly useful to the people running the business.
+              The work I am best suited for sits where internal systems, reporting, automation, cloud
+              deployment, and business context all meet. I like translating messy real-world needs into tools
+              that are clean, maintainable, and worth keeping in house.
             </p>
           </motion.article>
 
@@ -967,8 +972,8 @@ export default function PortfolioLandingPage() {
               Selected Work
             </h2>
             <p className="mt-5 text-base leading-8 text-[#4b5563]">
-              Work spanning live applications, internal systems, production website work, software, IT,
-              automation, analytics, and marketing support.
+              These projects reflect the kind of work I want to keep doing: internal platforms, reporting,
+              automation, production web work, and software that has to hold up under real operational needs.
             </p>
           </motion.div>
 
@@ -1044,22 +1049,19 @@ export default function PortfolioLandingPage() {
             <div className="max-w-3xl">
               <SectionEyebrow>Contact</SectionEyebrow>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-[2.35rem]">
-                Interested in working together?
+                If the work involves useful systems, cleaner workflows, or better reporting, I am interested.
               </h2>
               <p className="mt-5 text-base leading-8 text-white/75">
-                I am interested in building useful software, improving internal systems, and solving
-                practical business problems through development and automation.
+                I am especially interested in roles and projects where development is tied to operations,
+                automation, analytics, internal tooling, or marketing technology. If that overlaps with what
+                you are building, reach out.
               </p>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <PortfolioButton
-                type="button"
-                variant="secondary"
-                onClick={() => showToast("Email contact can be added here once you choose the address")}
-              >
+              <PortfolioButton href={`mailto:${emailAddress}`} variant="secondary">
                 <MailIcon className="h-4 w-4" />
-                Email
+                {emailAddress}
               </PortfolioButton>
               <PortfolioButton href={linkedinProfile} variant="secondary" external>
                 <LinkedInIcon className="h-4 w-4" />
